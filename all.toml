@@ -1,0 +1,216 @@
+# Iosevka Steve Narrow
+[buildPlans.IosevkaSteveNarrow]
+family = "Iosevka Steve Narrow"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.IosevkaSteveNarrow.widths.Condensed]
+shape = 420
+menu = 3
+css = "condensed"
+
+[buildPlans.IosevkaSteveNarrow.widths.Normal]
+shape = 500
+menu = 5
+css = "normal"
+
+[buildPlans.IosevkaSteveNarrow.variants.design]
+asterisk = "hex-low"
+at = "fourfold"
+b = "toothed-serifless"
+bar = "natural-slope"
+brace = "curly"
+capital-d = "more-rounded-serifless"
+capital-g = "toothless-corner-serifless-hooked"
+capital-i = "serifed" 
+capital-j = "serifless"
+capital-q = "straight"
+capital-r = "curly-serifless"
+d = "toothed-serifless"
+dollar = "open"
+f = "flat-hook-serifless"
+four = "closed-serifless"
+# g = "single-storey-serifless"
+g = "double-storey"
+i = "serifed-flat-tailed"
+j = "flat-hook-serifed"
+l = "serifed-flat-tailed"
+lig-neq = "slightly-slanted-dotted"
+# lig-equal-chain = "without-notch"
+# lig-hyphen-chain = "without-notch"
+m = "short-leg-serifless"
+one = "base"
+p = "eared-serifless"
+paren = "normal"
+percent = "rings-continuous-slash"
+q = "straight-serifless"
+r = "serifless"
+t = "flat-hook"
+u = "toothed-serifless"
+underscore = "low"
+w = "curly-serifless"
+y = "straight-turn-serifless"
+zero = "dotted"
+
+  [buildPlans.IosevkaSteveNarrow.ligations]
+  inherits = "javascript"
+  enables = ["eqeqeq", "exeqeq"]
+
+# Iosevka Steve Narrow Term
+[buildPlans.IosevkaSteveNarrowTerm]
+family = "Iosevka Steve Narrow Term"
+spacing = "term"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.IosevkaSteveNarrowTerm.variants.design]
+asterisk = "hex-low"
+at = "fourfold"
+b = "toothed-serifless"
+bar = "natural-slope"
+brace = "curly"
+capital-d = "more-rounded-serifless"
+capital-g = "toothless-corner-serifless-hooked"
+capital-i = "serifed" 
+capital-j = "serifless"
+capital-q = "straight"
+capital-r = "curly-serifless"
+d = "toothed-serifless"
+dollar = "open"
+f = "flat-hook-serifless"
+four = "closed-serifless"
+# g = "single-storey-serifless"
+g = "double-storey"
+i = "serifed-flat-tailed"
+j = "flat-hook-serifed"
+l = "serifed-flat-tailed"
+lig-neq = "slightly-slanted-dotted"
+lig-equal-chain = "without-notch"
+lig-hyphen-chain = "without-notch"
+m = "short-leg-serifless"
+one = "base"
+p = "eared-serifless"
+paren = "normal"
+percent = "rings-continuous-slash"
+q = "straight-serifless"
+r = "serifless"
+t = "flat-hook"
+u = "toothed-serifless"
+underscore = "low"
+w = "curly-serifless"
+y = "straight-turn-serifless"
+zero = "dotted"
+
+  [buildPlans.IosevkaSteveNarrowTerm.ligations]
+  inherits = "dlig"
+
+# Iosevka Menlo
+[buildPlans.IosevkaMenlo]
+family = "Iosevka Menlo"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.IosevkaMenlo.variants]
+  inherits = "ss04"
+
+    [buildPlans.IosevkaMenlo.variants.design]
+    at = "threefold-tall"    
+    brace = "curly-flat-boundary"
+    dollar = "open"
+    five = "upright-flat-serifless"
+    four = "closed-serifless"
+    g = "double-storey"
+    lig-neq = "slightly-slanted-dotted"
+    lower-lambda = "tailed-turn"
+    one = "no-base-long-top-serif"
+    zero = "dotted"
+
+  [buildPlans.IosevkaMenlo.ligations]
+  inherits = "dlig"
+
+# Iosevka Menlo Term
+[buildPlans.IosevkaMenloTerm]
+family = "Iosevka Menlo Term"
+spacing = "term"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.IosevkaMenloTerm.variants]
+  inherits = "ss04"
+
+    [buildPlans.IosevkaMenloTerm.variants.design]
+    brace = "curly"
+    dollar = "open"
+    g = "double-storey"
+    lig-neq = "slightly-slanted-dotted"
+    zero = "dotted"
+    one = "no-base-long-top-serif"
+    four = "closed-serifless"
+    five = "upright-flat-serifless"    
+
+  [buildPlans.IosevkaMenloTerm.ligations]
+  inherits = "dlig"
+
+# Iosevka Consolas
+[buildPlans.IosevkaConsolas]
+family = "Iosevka Consolas"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.IosevkaConsolas.variants]
+  inherits = "ss03"
+
+  [buildPlans.IosevkaConsolas.ligations]
+  inherits = "dlig"
+
+# Iosevka Plex
+[buildPlans.IosevkaPlex]
+family = "Iosevka Plex"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.IosevkaPlex.variants]
+  inherits = "ss15"
+
+  [buildPlans.IosevkaPlex.ligations]
+  inherits = "dlig"
+
+# Iosevka SourceCodePro
+[buildPlans.IosevkaSourceCodePro]
+family = "Iosevka Source Code Pro"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.IosevkaSourceCodePro.variants]
+  inherits = "ss09"
+
+  [buildPlans.IosevkaSourceCodePro.ligations]
+  inherits = "dlig"
+
+# Iosevka EnvyCodeR
+[buildPlans.IosevkaEnvyCodeR]
+family = "Iosevka Envy Code R"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.IosevkaEnvyCodeR.variants]
+  inherits = "ss10"
+
+  [buildPlans.IosevkaEnvyCodeR.ligations]
+  inherits = "dlig"
+
+

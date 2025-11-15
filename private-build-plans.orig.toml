@@ -1,0 +1,95 @@
+[buildPlans.IosevkaPlex]
+family = "Iosevka Plex"
+spacing = "term"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.IosevkaPlex.variants]
+  inherits = "ss15"
+
+    [buildPlans.IosevkaPlex.variants.italic]
+    k = "symmetric-connected-top-left-and-bottom-right-serifed"
+
+  [buildPlans.IosevkaPlex.ligations]
+  inherits = "dlig"
+  dot-as-operator = true
+  bar-triggers-op-centering = true
+  kern-dotty = true
+  kern-bars = true
+  center-ops = true
+  center-op-trigger-plus-minus-l = true
+  center-op-trigger-plus-minus-r = true
+  center-op-trigger-equal-l = true
+  center-op-trigger-equal-r = true
+  center-op-trigger-bar-l = true
+  center-op-trigger-bar-r = true
+  center-op-trigger-angle-inside = true
+  center-op-trigger-angle-outside = true
+  center-op-influence-dot = true
+  center-op-influence-colon = true
+  arrow-l = true
+  arrow-r = true
+  arrow-lr = true
+  trig = true
+  eqeqeq = true
+  exeqeq = true
+  exeq = true
+  slash-asterisk = true
+  llgg = true
+  llggeq = true
+  html-comment = true
+  minus-minus-minus = true
+  plus-plus-plus = true
+  underscore-underscore-underscore = true
+  hash-hash = true
+
+
+[buildPlans.IosevkaPlexTerm]
+family = "Iosevka Plex"
+spacing = "term"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+buildTextureFeature = true
+
+  [buildPlans.IosevkaPlexTerm.variants]
+  inherits = "ss15"
+
+    [buildPlans.IosevkaPlexTerm.variants.italic]
+    k = "symmetric-connected-top-left-and-bottom-right-serifed"
+
+  [buildPlans.IosevkaPlexTerm.ligations]
+  inherits = "dlig"
+  dot-as-operator = true
+  bar-triggers-op-centering = true
+  kern-dotty = true
+  kern-bars = true
+  center-ops = true
+  center-op-trigger-plus-minus-l = true
+  center-op-trigger-plus-minus-r = true
+  center-op-trigger-equal-l = true
+  center-op-trigger-equal-r = true
+  center-op-trigger-bar-l = true
+  center-op-trigger-bar-r = true
+  center-op-trigger-angle-inside = true
+  center-op-trigger-angle-outside = true
+  center-op-influence-dot = true
+  center-op-influence-colon = true
+  arrow-l = true
+  arrow-r = true
+  arrow-lr = true
+  trig = true
+  eqeqeq = true
+  exeqeq = true
+  exeq = true
+  slash-asterisk = true
+  llgg = true
+  llggeq = true
+  html-comment = true
+  minus-minus-minus = true
+  plus-plus-plus = true
+  underscore-underscore-underscore = true
+  hash-hash = true
+

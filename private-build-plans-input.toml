@@ -1,0 +1,251 @@
+# Input
+[buildPlans.IosevkaInput]
+family = "Iosevka Input"
+spacing = "fontconfig-mono"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.IosevkaInput.metricOverride]
+leading = 1450
+
+[buildPlans.IosevkaInput.variants]
+inherits = "ss18"
+
+[buildPlans.IosevkaInput.weights.Light]
+shape = 300
+menu = 300
+css = 300
+
+[buildPlans.IosevkaInput.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.IosevkaInput.weights.Medium]
+shape = 500
+menu = 500
+css = 500
+
+[buildPlans.IosevkaInput.weights.SemiBold]
+shape = 600
+menu = 600
+css = 600
+
+[buildPlans.IosevkaInput.variants.design]
+underscore = "high"
+# one = "no-base"
+f = "serifless"
+t = "flat-hook"
+asterisk = "hex-low"
+lig-neq = "slightly-slanted-dotted"
+lig-equal-chain = "without-notch"
+lig-double-arrow-bar = "without-notch"
+lig-hyphen-chain = "without-notch"
+lig-plus-chain = "without-notch"
+ampersand = "lower-open"
+# brace = "curly-flat-boundary"
+
+[buildPlans.IosevkaInput.ligations]
+inherits = "javascript"
+arrow-l = true
+arrow-lr = true
+arrow-r = true
+bar-triggers-op-centering = true
+center-op-influence-colon = true
+center-op-influence-dot = true
+center-op-trigger-angle-inside = true
+center-op-trigger-angle-outside = true
+center-op-trigger-bar-l = true
+center-op-trigger-bar-r = true
+center-op-trigger-equal-l = true
+center-op-trigger-equal-r = true
+center-op-trigger-plus-minus-l = true
+center-op-trigger-plus-minus-r = true
+center-ops = true
+dot-as-operator = true
+eqeqeq = true
+exeq = false
+eqeq = false
+exeqeq = true
+gteq = true
+hash-hash = true
+html-comment = true
+kern-bars = true
+kern-dotty = true
+llgg = true
+llggeq = true
+lteq = true
+minus-minus-minus = true
+plus-plus-plus = true
+slash-asterisk = true
+trig = true
+underscore-underscore-underscore = true
+
+# Input Org
+[buildPlans.IosevkaInputOrg]
+family = "Iosevka Input Org"
+spacing = "quasi-proportional"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.IosevkaInputOrg.metricOverride]
+leading = 1450
+
+[buildPlans.IosevkaInputOrg.variants]
+inherits = "ss18"
+
+[buildPlans.IosevkaInputOrg.weights.Light]
+shape = 300
+menu = 300
+css = 300
+
+[buildPlans.IosevkaInputOrg.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.IosevkaInputOrg.weights.Medium]
+shape = 500
+menu = 500
+css = 500
+
+[buildPlans.IosevkaInputOrg.weights.SemiBold]
+shape = 600
+menu = 600
+css = 600
+
+[buildPlans.IosevkaInputOrg.variants.design]
+underscore = "high"
+# one = "no-base"
+f = "serifless"
+t = "flat-hook"
+asterisk = "hex-low"
+lig-neq = "slightly-slanted-dotted"
+lig-equal-chain = "without-notch"
+lig-double-arrow-bar = "without-notch"
+lig-hyphen-chain = "without-notch"
+lig-plus-chain = "without-notch"
+ampersand = "lower-open"
+# brace = "curly-flat-boundary"
+
+[buildPlans.IosevkaInputOrg.ligations]
+inherits = "javascript"
+arrow-l = true
+arrow-lr = true
+arrow-r = true
+bar-triggers-op-centering = true
+center-op-influence-colon = true
+center-op-influence-dot = true
+center-op-trigger-angle-inside = true
+center-op-trigger-angle-outside = true
+center-op-trigger-bar-l = true
+center-op-trigger-bar-r = true
+center-op-trigger-equal-l = true
+center-op-trigger-equal-r = true
+center-op-trigger-plus-minus-l = true
+center-op-trigger-plus-minus-r = true
+center-ops = true
+dot-as-operator = true
+eqeqeq = true
+exeq = false
+eqeq = false
+exeqeq = true
+gteq = true
+hash-hash = true
+html-comment = true
+kern-bars = true
+kern-dotty = true
+llgg = true
+llggeq = true
+lteq = true
+minus-minus-minus = true
+plus-plus-plus = true
+slash-asterisk = true
+trig = true
+underscore-underscore-underscore = true
+
+# Input Org Slab
+[buildPlans.IosevkaInputOrgSlab]
+family = "Iosevka Input Org Slab"
+spacing = "quasi-proportional"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.IosevkaInputOrgSlab.metricOverride]
+leading = 1450
+
+[buildPlans.IosevkaInputOrgSlab.variants]
+inherits = "ss18"
+
+[buildPlans.IosevkaInputOrgSlab.weights.Light]
+shape = 300
+menu = 300
+css = 300
+
+[buildPlans.IosevkaInputOrgSlab.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.IosevkaInputOrgSlab.weights.Medium]
+shape = 500
+menu = 500
+css = 500
+
+[buildPlans.IosevkaInputOrgSlab.weights.SemiBold]
+shape = 600
+menu = 600
+css = 600
+
+[buildPlans.IosevkaInputOrgSlab.variants.design]
+underscore = "high"
+# one = "no-base"
+f = "serifless"
+t = "flat-hook"
+asterisk = "hex-low"
+lig-neq = "slightly-slanted-dotted"
+lig-equal-chain = "without-notch"
+lig-double-arrow-bar = "without-notch"
+lig-hyphen-chain = "without-notch"
+lig-plus-chain = "without-notch"
+ampersand = "lower-open"
+# brace = "curly-flat-boundary"
+
+[buildPlans.IosevkaInputOrgSlab.ligations]
+inherits = "javascript"
+arrow-l = true
+arrow-lr = true
+arrow-r = true
+bar-triggers-op-centering = true
+center-op-influence-colon = true
+center-op-influence-dot = true
+center-op-trigger-angle-inside = true
+center-op-trigger-angle-outside = true
+center-op-trigger-bar-l = true
+center-op-trigger-bar-r = true
+center-op-trigger-equal-l = true
+center-op-trigger-equal-r = true
+center-op-trigger-plus-minus-l = true
+center-op-trigger-plus-minus-r = true
+center-ops = true
+dot-as-operator = true
+eqeqeq = true
+exeq = false
+eqeq = false
+exeqeq = true
+gteq = true
+hash-hash = true
+html-comment = true
+kern-bars = true
+kern-dotty = true
+llgg = true
+llggeq = true
+lteq = true
+minus-minus-minus = true
+plus-plus-plus = true
+slash-asterisk = true
+trig = true
+underscore-underscore-underscore = true

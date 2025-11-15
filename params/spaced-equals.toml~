@@ -1,0 +1,16 @@
+  # Increase the spacing between horizontal bars in equals sign
+  [ident.ident]
+  equalHorizontalBarHeight = 0.15      # Default might be 
+  around 0.1
+  equalHorizontalBarDistance = 0.30    # Default might be 
+  around 0.2
+
+  # These are the specific settings for the eqeqeq ligature
+  [ident.lig.fc]
+  equalHorizontalBarDistance = 0.35
+
+  [ident.lig.cc]
+  equalHorizontalBarDistance = 0.35
+
+  [ident.lig.cf]
+  equalHorizontalBarDistance = 0.35

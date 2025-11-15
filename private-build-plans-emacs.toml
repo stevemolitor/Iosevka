@@ -1,0 +1,231 @@
+[buildPlans.IosevkaPlexEmacs]
+family = "Iosevka Plex Emacs"
+spacing = "fontconfig-mono"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.IosevkaPlexEmacs.metricOverride]
+leading = 1450
+
+[buildPlans.IosevkaPlexEmacs.weights.Light]
+shape = 300
+menu = 300
+css = 300
+
+[buildPlans.IosevkaPlexEmacs.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.IosevkaPlexEmacs.weights.Medium]
+shape = 500
+menu = 500
+css = 500
+
+[buildPlans.IosevkaPlexEmacs.weights.SemiBold]
+shape = 600
+menu = 600
+css = 600
+
+[buildPlans.IosevkaPlexEmacs.variants.design]
+underscore = "high"
+lig-equal-chain = "without-notch"
+lig-double-arrow-bar = "without-notch"
+
+[buildPlans.IosevkaPlexEmacs.variants.italic]
+f = "tailed-crossbar-at-x-height"
+i = "serifed-semi-tailed"
+j = "flat-hook-serifed"
+k = "straight-top-left-serifed"
+l = "serifed-flat-tailed"
+t = "flat-hook-short-neck2"
+w = "straight-motion-serifed"
+x = "straight-unilateral-motion-serifed"
+z = "straight-bottom-serifed"
+
+[buildPlans.IosevkaPlexEmacs.ligations]
+inherits = "javascript"
+arrow-l = true
+arrow-lr = true
+arrow-r = true
+bar-triggers-op-centering = true
+center-op-influence-colon = true
+center-op-influence-dot = true
+center-op-trigger-angle-inside = true
+center-op-trigger-angle-outside = true
+center-op-trigger-bar-l = true
+center-op-trigger-bar-r = true
+center-op-trigger-equal-l = true
+center-op-trigger-equal-r = true
+center-op-trigger-plus-minus-l = true
+center-op-trigger-plus-minus-r = true
+center-ops = true
+dot-as-operator = true
+eqeqeq = true
+exeq = false
+eqeq = false
+exeqeq = true
+gteq = true
+hash-hash = true
+html-comment = true
+kern-bars = true
+kern-dotty = true
+llgg = true
+llggeq = true
+lteq = true
+minus-minus-minus = true
+plus-plus-plus = true
+slash-asterisk = true
+trig = true
+underscore-underscore-underscore = true
+
+[buildPlans.IosevkaPlexTexture]
+family = "Iosevka Plex Texture"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+buildTextureFeature = true
+
+[buildPlans.IosevkaPlexTexture.metricOverride]
+leading = 1450
+
+[buildPlans.IosevkaPlexTexture.weights.Light]
+shape = 300
+menu = 300
+css = 300
+
+[buildPlans.IosevkaPlexTexture.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.IosevkaPlexTexture.weights.Medium]
+shape = 500
+menu = 500
+css = 500
+
+[buildPlans.IosevkaPlexTexture.weights.SemiBold]
+shape = 600
+menu = 600
+css = 600
+
+[buildPlans.IosevkaPlexTexture.variants]
+inherits = "ss15"
+
+[buildPlans.IosevkaPlexTexture.variants.italic]
+f = "tailed-crossbar-at-x-height"
+i = "serifed-semi-tailed"
+j = "flat-hook-serifed"
+k = "straight-top-left-serifed"
+l = "serifed-flat-tailed"
+t = "flat-hook-short-neck2"
+w = "straight-motion-serifed"
+x = "straight-unilateral-motion-serifed"
+z = "straight-bottom-serifed"
+
+[buildPlans.IosevkaPlexTexture.ligations]
+inherits = "javascript"
+arrow-l = true
+arrow-lr = true
+arrow-r = true
+bar-triggers-op-centering = true
+center-op-influence-colon = true
+center-op-influence-dot = true
+center-op-trigger-angle-inside = true
+center-op-trigger-angle-outside = true
+center-op-trigger-bar-l = true
+center-op-trigger-bar-r = true
+center-op-trigger-equal-l = true
+center-op-trigger-equal-r = true
+center-op-trigger-plus-minus-l = true
+center-op-trigger-plus-minus-r = true
+center-ops = true
+dot-as-operator = true
+eqeqeq = true
+exeq = false
+eqeq = false
+exeqeq = true
+gteq = true
+hash-hash = true
+html-comment = true
+kern-bars = true
+kern-dotty = true
+llgg = true
+llggeq = true
+lteq = true
+minus-minus-minus = true
+plus-plus-plus = true
+slash-asterisk = true
+trig = true
+
+[buildPlans.IosevkaPlexTerminal]
+family = "Iosevka Plex Terminal"
+spacing = "fixed"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.IosevkaPlexTerminal.variants.italic]
+f = "tailed-crossbar-at-x-height"
+i = "serifed-semi-tailed"
+j = "flat-hook-serifed"
+k = "straight-top-left-serifed"
+l = "serifed-flat-tailed"
+t = "flat-hook-short-neck2"
+w = "straight-motion-serifed"
+x = "straight-unilateral-motion-serifed"
+z = "straight-bottom-serifed"
+
+[buildPlans.IosevkaPlexQuasi]
+family = "Iosevka Plex Quasi"
+spacing = "quasi-proportional"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.IosevkaPlexQuasi.variants]
+inherits = "ss15"
+
+[buildPlans.IosevkaPlexQuasi.variants.design]
+underscore = "high"
+lig-equal-chain = "without-notch"
+lig-double-arrow-bar = "without-notch"
+
+[buildPlans.IosevkaPlexQuasi.variants.italic]
+f = "tailed-crossbar-at-x-height"
+i = "serifed-semi-tailed"
+j = "flat-hook-serifed"
+k = "straight-top-left-serifed"
+l = "serifed-flat-tailed"
+t = "flat-hook-short-neck2"
+w = "straight-motion-serifed"
+x = "straight-unilateral-motion-serifed"
+z = "straight-bottom-serifed"
+
+[buildPlans.IosevkaPlexQuasiSlab]
+family = "Iosevka Plex QuasiSlab"
+spacing = "quasi-proportional"
+serifs = "slab"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.IosevkaPlexQuasiSlab.variants]
+inherits = "ss15"
+
+[buildPlans.IosevkaPlexQuasiSlab.variants.design]
+underscore = "high"
+lig-equal-chain = "without-notch"
+lig-double-arrow-bar = "without-notch"
+
+[buildPlans.IosevkaPlexQuasiSlab.variants.italic]
+f = "tailed-crossbar-at-x-height"
+i = "serifed-semi-tailed"
+j = "flat-hook-serifed"
+k = "straight-top-left-serifed"
+l = "serifed-flat-tailed"
+t = "flat-hook-short-neck2"
+w = "straight-motion-serifed"
+x = "straight-unilateral-motion-serifed"
+z = "straight-bottom-serifed"

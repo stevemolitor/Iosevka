@@ -1,0 +1,344 @@
+# Iosevka Menlo
+
+[buildPlans.IosevkaMenlo]
+family = "Iosevka Menlo"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.IosevkaMenlo.weights.Light]
+  shape = 300
+  menu = 300
+  css = 300
+  
+  [buildPlans.IosevkaMenlo.weights.Regular]
+  shape = 400
+  menu = 400
+  css = 400
+  
+  [buildPlans.IosevkaMenlo.weights.Medium]
+  shape = 500
+  menu = 500
+  css = 500
+  
+  [buildPlans.IosevkaMenlo.weights.SemiBold]
+  shape = 600
+  menu = 600
+  css = 600
+  
+  [buildPlans.IosevkaMenlo.weights.Bold]
+  shape = 700
+  menu = 700
+  css = 700
+
+[buildPlans.IosevkaMenlo.widths.Normal]
+  shape = 500
+  menu = 5
+  css = "normal"
+  
+  [buildPlans.IosevkaMenlo.variants]
+  inherits = "ss04"
+  
+    [buildPlans.IosevkaMenlo.variants.design]
+    one = "no-base"
+    brace = "curly-flat-boundary"
+    dollar = "open"
+    five = "upright-flat-serifless"
+    lower-lambda = "tailed-turn"
+    zero = "dotted"
+    lig-neq = "slightly-slanted-dotted"
+    lig-equal-chain = 'without-notch'
+
+  [buildPlans.IosevkaMenlo.ligations]
+  inherits = "dlig"
+  enables = ["eqeqeq", "exeqeq"]
+  disables = ["slash-asterisk"]
+
+# Iosevka Menlo Tall
+
+[buildPlans.IosevkaMenloTall]
+family = "Iosevka Menlo Tall"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.IosevkaMenloTall.weights.Light]
+  shape = 300
+  menu = 300
+  css = 300
+  
+  [buildPlans.IosevkaMenloTall.weights.Regular]
+  shape = 400
+  menu = 400
+  css = 400
+  
+  [buildPlans.IosevkaMenloTall.weights.Medium]
+  shape = 450
+  menu = 450
+  css = 450
+  
+  [buildPlans.IosevkaMenloTall.weights.SemiBold]
+  shape = 600
+  menu = 600
+  css = 600
+  
+  [buildPlans.IosevkaMenloTall.weights.Bold]
+  shape = 700
+  menu = 700
+  css = 700
+
+[buildPlans.IosevkaMenloTall.widths.Normal]
+  shape = 500
+  menu = 5
+  css = "normal"
+  
+  [buildPlans.IosevkaMenloTall.variants]
+  inherits = "ss04"
+  
+    [buildPlans.IosevkaMenloTall.variants.design]
+    one = "no-base"
+    brace = "curly-flat-boundary"
+    dollar = "open"
+    five = "upright-flat-serifless"
+    lower-lambda = "tailed-turn"
+    zero = "dotted"
+    lig-neq = "slightly-slanted-dotted"
+    lig-equal-chain = 'without-notch'
+
+  [buildPlans.IosevkaMenloTall.ligations]
+  inherits = "dlig"
+  enables = ["eqeqeq", "exeqeq"]
+  disables = ["slash-asterisk"]
+
+  [buildPlans.IosevkaMenloTall.metricOverride]
+    xHeight = 545
+
+# Iosevka SCP
+
+[buildPlans.IosevkaSCP]
+family = "Iosevka SCP"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.IosevkaSCP.weights.Light]
+  shape = 300
+  menu = 300
+  css = 300
+  
+  [buildPlans.IosevkaSCP.weights.Regular]
+  shape = 400
+  menu = 400
+  css = 400
+  
+  [buildPlans.IosevkaSCP.weights.Medium]
+  shape = 500
+  menu = 500
+  css = 500
+  
+  [buildPlans.IosevkaSCP.weights.SemiBold]
+  shape = 600
+  menu = 600
+  css = 600
+  
+  [buildPlans.IosevkaSCP.weights.Bold]
+  shape = 700
+  menu = 700
+  css = 700
+
+[buildPlans.IosevkaSCP.widths.Normal]
+  shape = 500
+  menu = 5
+  css = "normal"
+  
+  [buildPlans.IosevkaSCP.variants]
+  inherits = "ss08"
+  
+    [buildPlans.IosevkaSCP.variants.design]
+    one = "no-base"
+    brace = "curly-flat-boundary"
+    dollar = "open"
+    five = "upright-flat-serifless"
+    lower-lambda = "tailed-turn"
+    zero = "dotted"
+    lig-neq = "slightly-slanted-dotted"
+    lig-equal-chain = 'without-notch'
+
+  [buildPlans.IosevkaSCP.ligations]
+  inherits = "dlig"
+  enables = ["eqeqeq", "exeqeq"]
+  disables = ["slash-asterisk"]
+
+# Iosevka Standard
+
+[buildPlans.IosevkaStandard]
+family = "Iosevka Standard"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = true
+buildTextureFeature = true
+
+  [buildPlans.IosevkaStandard.weights.Light]
+  shape = 300
+  menu = 300
+  css = 300
+  
+  [buildPlans.IosevkaStandard.weights.Regular]
+  shape = 400
+  menu = 400
+  css = 400
+  
+  [buildPlans.IosevkaStandard.weights.Medium]
+  shape = 500
+  menu = 500
+  css = 500
+  
+  [buildPlans.IosevkaStandard.weights.SemiBold]
+  shape = 600
+  menu = 600
+  css = 600
+  
+  [buildPlans.IosevkaStandard.weights.Bold]
+  shape = 700
+  menu = 700
+  css = 700
+
+[buildPlans.IosevkaStandard.widths.Normal]
+  shape = 500
+  menu = 5
+  css = "normal"
+  
+  [buildPlans.IosevkaStandard.variants]
+  inherits = "ss08"
+  
+    [buildPlans.IosevkaStandard.variants.design]
+    one = "no-base"
+    brace = "curly-flat-boundary"
+    dollar = "open"
+    five = "upright-flat-serifless"
+    lower-lambda = "tailed-turn"
+    zero = "dotted"
+    lig-neq = "slightly-slanted-dotted"
+    lig-equal-chain = 'without-notch'
+
+  [buildPlans.IosevkaStandard.ligations]
+  inherits = "dlig"
+  enables = ["eqeqeq", "exeqeq"]
+  disables = ["slash-asterisk"]
+
+# Iosevka JB 
+
+[buildPlans.IosevkaJB]
+family = "Iosevka JB"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.IosevkaJB.weights.Light]
+  shape = 300
+  menu = 300
+  css = 300
+  
+  [buildPlans.IosevkaJB.weights.Regular]
+  shape = 400
+  menu = 400
+  css = 400
+  
+  [buildPlans.IosevkaJB.weights.Medium]
+  shape = 500
+  menu = 500
+  css = 500
+  
+  [buildPlans.IosevkaJB.weights.SemiBold]
+  shape = 600
+  menu = 600
+  css = 600
+  
+  [buildPlans.IosevkaJB.weights.Bold]
+  shape = 700
+  menu = 700
+  css = 700
+
+[buildPlans.IosevkaJB.widths.Normal]
+  shape = 500
+  menu = 5
+  css = "normal"
+  
+  [buildPlans.IosevkaJB.variants]
+  inherits = "ss14"
+  
+    [buildPlans.IosevkaJB.variants.design]
+    lower-lambda = "tailed-turn"
+    zero = "dotted"
+    lig-equal-chain = 'without-notch'
+    lig-neq = "slightly-slanted-dotted"
+    paren = "normal"
+    lig-ltgteq = "flat"
+
+    [buildPlans.IosevkaJB.variants.italic]
+    # f = "serifless"
+    f = "flat-hook-serifless"
+
+  [buildPlans.IosevkaJB.ligations]
+  inherits = "dlig"
+  enables = ["eqeqeq", "exeqeq"]
+  disables = ["slash-asterisk"]
+
+# Iosevka Envy
+
+[buildPlans.IosevkaEnvy]
+family = "Iosevka Envy"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.IosevkaEnvy.weights.Light]
+  shape = 300
+  menu = 300
+  css = 300
+  
+  [buildPlans.IosevkaEnvy.weights.Regular]
+  shape = 400
+  menu = 400
+  css = 400
+  
+  [buildPlans.IosevkaEnvy.weights.Medium]
+  shape = 500
+  menu = 500
+  css = 500
+  
+  [buildPlans.IosevkaEnvy.weights.SemiBold]
+  shape = 600
+  menu = 600
+  css = 600
+  
+  [buildPlans.IosevkaEnvy.weights.Bold]
+  shape = 700
+  menu = 700
+  css = 700
+
+[buildPlans.IosevkaEnvy.widths.Normal]
+  shape = 500
+  menu = 5
+  css = "normal"
+  
+  [buildPlans.IosevkaEnvy.variants]
+  inherits = "ss10"
+  
+    [buildPlans.IosevkaEnvy.variants.design]
+    lower-lambda = "tailed-turn"
+    zero = "dotted"
+    lig-equal-chain = 'without-notch'
+    lig-neq = "slightly-slanted-dotted"
+    lig-ltgteq = "flat"
+
+  [buildPlans.IosevkaEnvy.ligations]
+  inherits = "dlig"
+  enables = ["eqeqeq", "exeqeq"]
+  disables = ["slash-asterisk"]

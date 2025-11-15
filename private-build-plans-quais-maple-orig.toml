@@ -1,0 +1,110 @@
+[buildPlans.QuasiMaple]
+family = "Quasi Maple"
+spacing = "quasi-proportional"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.QuasiMaple.metricOverride]
+leading = 1450
+
+[buildPlans.QuasiMaple.variants.design]
+one = "base"
+two = "straight-neck-serifless"
+four = "closed-serifless"
+five = "upright-flat-serifless"
+six = "open-contour"
+seven = "straight-serifless"
+eight = "crossing-asymmetric"
+nine = "open-contour"
+zero = "oval-slashed"
+capital-b = "standard-serifless"
+capital-c = "serifless"
+capital-d = "more-rounded-serifless"
+capital-g = "toothless-corner-serifless-hooked"
+capital-k = "symmetric-touching-serifless"
+capital-q = "straight"
+capital-r = "straight-serifless"
+asterisk = "hex-low"
+# a = "single-storey-serifless"
+a = "single-storey-top-cut-tailed"
+c = "serifless"
+f = "flat-hook-serifless"
+# k = "straight-serifless"
+k = "curly-serifless"
+# l = "serifed-flat-tailed"
+l = "serifed"
+m = "serifless"
+t = "flat-hook"
+y = "straight-turn-serifless"
+
+[buildPlans.QuasiMaple.variants.italic]
+one = "base"
+two = "straight-neck-serifless"
+four = "closed-serifless"
+five = "upright-flat-serifless"
+six = "open-contour"
+seven = "straight-serifless"
+eight = "crossing-asymmetric"
+nine = "open-contour"
+zero = "oval-slashed"
+capital-b = "standard-serifless"
+capital-c = "serifless"
+capital-d = "more-rounded-serifless"
+capital-g = "toothless-corner-serifless-hooked"
+capital-k = "symmetric-touching-serifless"
+capital-q = "straight"
+capital-r = "straight-serifless"
+# a = "single-storey-serifless"
+a = "single-storey-top-cut-tailed"
+c = "serifless"
+f = "flat-hook-tailed"
+k = "cursive-serifless"
+l = "serifed-flat-tailed"
+m = "serifless"
+t = "flat-hook"
+x = "semi-chancery-straight-serifless"
+y = "cursive-serifless"
+asterisk = "hex-low"
+
+[buildPlans.QuasiMaple.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.QuasiMaple.weights.Bold]
+shape = 700
+menu = 700
+css = 700
+
+[buildPlans.QuasiMaple.weights.Light]
+shape = 300
+menu = 300
+css = 300
+
+[buildPlans.QuasiMaple.widths.Normal]
+shape = 600
+menu = 5
+css = "normal"
+
+# [buildPlans.QuasiMaple.widths.Extended]
+# shape = 600
+# menu = 7
+# css = "expanded"
+
+# [buildPlans.QuasiMaple.widths.UltraExtended]
+# shape = 720
+# menu = 9
+# css = "ultra-expanded"
+
+[buildPlans.QuasiMaple.slopes.Upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.QuasiMaple.slopes.Italic]
+angle = 9.4
+shape = "italic"
+menu = "italic"
+css = "italic"
